@@ -42,7 +42,7 @@ class EnglishTest extends \PHPUnit_Framework_TestCase
 
         $alpha = new English();
         foreach ($alpha as $key => $value) {
-            $keys[] = $value;
+            $keys[] = $key;
             $values .= $value;
         }
 
